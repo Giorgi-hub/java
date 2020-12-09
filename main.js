@@ -13,10 +13,10 @@
 // //დავალება [3]:
 // // შექმენით ციფრების მასივი და გამოიტანეთ მარტო ლუწი რიცხვები და მარტო კენტი რიცხვები;
 //   let arr = [392,10512,8381,99913,4123512,9999];
-//  for(let i=0; i<numbs.length; i++)
-//    if(numbs[i]%2==0) {console.log(numbs[i])};
-//  for(let i=0; i<numbs.length; i++)
-//    if(numbs[i]%2==1) {console.log(numbs[i])};
+//  for(let w = 0; w < numbs.length; w++)
+//    if(numbs[w]%2==0) {console.log(numbs[w])};
+//  for(let w= 0; w <numbs.length; w++)
+//    if(numbs[w]%2==1) {console.log(numbs[w])};
 // //დავალება [4]:
 // // მოცემულია მასივი:
 //  let user = ['name', 'age', 25, 50, "surname", [100, 500] ];
@@ -34,7 +34,31 @@
 //  console.log(person.eyecolor);
 // // დავალება [6]:
 // // შექმენით მასივი, და დაბეჭდეთ სათითაოდ თითოეული ელემენტი;
-let name = [20,19,18,17,16,"tutxmeti"]
-for (let w = 0; w <name.lenght; w++ ) {
-    console.log(name[w])
-}
+// let name = [20,19,18,17,16,"tutxmeti"]
+// for (let w = 0; w <name.length; w++ ) {
+//     console.log(name[w])
+// }
+// // დავალება[7]
+// // შექმენით მასივი, რომლის საწყისი მნიშვნელობა იქნება რიცხვები: 5, 25, 89, 120, 36;
+// //   მასივის ბოლოში დაამატეთ ორი ელემენტი(სტრინგი): javascript და python;
+// //   მასივის დასაწყისში კი დაამატეთ ელემენტი(სტრინგი): html და css;
+// //   გამოიტანეთ ეკრანზე, რამდენი ელემენტი გაქვთ მასივში;
+// //   წაშალეთ მასივიდან პირველი და ბოლო ელემენტი;
+// //   დაბეჭდეთ მასივისი ახალი ელემენტები.
+// let numbers = [5, 25, 89, 120, 36]
+// numbers.push("python","javascript");
+// numbers.unshift("html","css");
+// console.log(numbers.length)
+// numbers.shift();
+// numbers.pop();
+// console.log(numbers);
+// // დავალება[8]
+// let xili = ["portoxali", "banani", "msxali"];
+// console.log(xili.length);
+// xili.push("vashli", "giorgisi");
+// xili.unshift("sazamtro");
+// console.log(xili.length);
+// xili.splice(2, 0, 'mango')
+// xili.shift();
+// xili.pop();
+// console.log(xili.length)
